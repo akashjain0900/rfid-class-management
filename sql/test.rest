@@ -1,0 +1,41 @@
+###
+GET http://localhost:3000/19NCJB713
+
+### REGISTRATION FUNCTION
+POST  http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "RegNo" : "19NCJB711",
+    "CardUID" : "1234556",
+    "Name" : "TEST",
+    "DoB" : "2000-10-10",
+    "MobNo" : "1110001232",
+    "CourseDetails" : "BCA"
+}
+
+### STORE ATTENDANCE
+POST  http://localhost:3000/attendance
+Content-Type: application/json
+
+{
+    "CardUID" : "111456789123",
+    "Date" : "2022-02-24",
+    "Time" : "08:00:00"
+}
+
+###
+PUT  http://localhost:3000/19NCJB712
+Content-Type: application/json
+
+{
+    "MobNo" : "111123123"}
+
+###
+
+POST  http://localhost:3000/test
+Content-Type: application/json
+
+{
+    "CardUID" : "123456"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "RFID Attendence",
+  "main": "index.js",
+  "scripts": {
+    "final": "nodemon index.js"
+  },
+  "author": "Akash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}

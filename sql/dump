@@ -1,0 +1,23 @@
+// //Constructor for ID
+// var ID = function (id) {
+//   this.RegNo = id.RegNo;
+//   this.UID = id.UID;
+// };
+
+// //Constructor for Std_Details
+// var Std_Details = function (std_details) {
+//   this.RegNo = std_details.RegNo;
+//   this.Name = std_details.Name;
+//   this.DoB = std_details.DoB;
+//   this.MobNo = std_details.MobNo;
+//   this.CourseDetails = std_details.CourseDetails;
+// };
+
+
+// function error(errcode) {
+//   this.errCode = errcode;
+//   console.log("Error Code", errCode);
+//   result(null, err);
+// }
+
+"{\"api_key\":\"" + apiKey + "\",\"field1\":\"" + String(random(40)) + "\"}";
